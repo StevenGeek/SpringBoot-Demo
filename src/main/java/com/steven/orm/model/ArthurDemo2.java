@@ -1,4 +1,4 @@
-package com.steven.model;
+package com.steven.orm.model;
 
 import java.util.Date;
 

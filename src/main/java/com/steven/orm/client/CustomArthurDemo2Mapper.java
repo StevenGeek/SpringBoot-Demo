@@ -1,11 +1,11 @@
-package com.steven.orm.mapper;
+package com.steven.orm.client;
 
 import java.util.List;
 
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
 
-import com.steven.model.ArthurDemo2;
+import com.steven.orm.model.ArthurDemo2;
 
 @Mapper
 public interface CustomArthurDemo2Mapper {
