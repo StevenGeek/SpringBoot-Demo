@@ -233,4 +233,10 @@ public class ArthurDemo2 {
     public void setMakedate(Date makedate) {
         this.makedate = makedate;
     }
+
+	@Override
+	public String toString() {
+		return "ArthurDemo2 [billid=" + billid + ", sequence=" + sequence + ", no=" + no + ", billdate=" + billdate
+				+ ", status=" + status + ", maker=" + maker + ", makedate=" + makedate + "]";
+	}
 }
